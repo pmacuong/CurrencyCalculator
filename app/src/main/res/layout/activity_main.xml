@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/from_amount_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Enter amount"
+        android:textSize="24sp"
+        android:minHeight="64dp"
+        android:padding="16dp" />
+
+    <Spinner
+        android:id="@+id/from_currency_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="64dp"
+        android:prompt="@string/from_currency"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/to_amount_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Enter amount"
+        android:textSize="24sp"
+        android:minHeight="64dp"
+        android:padding="16dp" />
+
+    <Spinner
+        android:id="@+id/to_currency_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="64dp"
+        android:prompt="@string/to_currency"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/result_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:padding="16dp" />
+
+</LinearLayout>

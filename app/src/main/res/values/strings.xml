@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CurrencyCalculator</string>
+    <string name="from_currency">From Currency</string>
+    <string name="to_currency">To Currency</string>
+</resources>
